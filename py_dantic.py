@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 import streamlit as st
 load_dotenv()
-model = ChatOpenAI()
+model = ChatOpenAI(model_name="gpt-4", api_key=st.secrets['api_key'], temperature=0)
 st.title("Review Analysis")
 class Student(BaseModel):
     Sentiment: Literal["Positive", "Negative", "Neutral"] = Field(description="Return sentiment of the review either negative, positive or neutral")
