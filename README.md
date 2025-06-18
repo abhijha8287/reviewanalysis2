@@ -2,7 +2,7 @@
 
 This Streamlit app uses **OpenAI GPT-4 + LangChain** with **Pydantic schema validation** to analyze user reviews in a **structured, accurate, and clean format**. It extracts detailed insights like sentiment, pros/cons, key themes, a summary, and even the **reviewer’s name** if present.
 
-🔗 **Live Demo**: [https://reviewanalysisbyabhishek.streamlit.app/](https://reviewanalysisbyabhishek.streamlit.app/)
+🔗 **Live Demo**: [https://reviewanalysis2byabhishek.streamlit.app/](https://reviewanalysisbyabhishek.streamlit.app/)
 
 > ⚠️ If the app is inactive or "asleep", Streamlit may take a few seconds to wake it up. Just click or refresh once to activate.
 
